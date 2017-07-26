@@ -10,9 +10,10 @@
 	{
 		/// <summary>
 		/// Renames all sheets that contain exactly one floor plan to match the name of that view
-		/// Copy the whole method into the macro
+		/// Copy the whole method into the macro file on your machine,
+		/// or download this file and add it to the solution in the macro editor
 		/// </summary>
-		public void RenameSheetsToMatchViewName()
+		public void RenameSheetsToMatchViewNames()
 		{
 			UIDocument uidoc = this.ActiveUIDocument;
 			Document doc = uidoc.Document;
